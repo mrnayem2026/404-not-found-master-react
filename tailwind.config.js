@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Inconsolata: ['Inconsolata', 'monospace'],
+        Space_Mono: ['Space Mono', 'monospace'],
+      }, //end of fontFamily
+    },
   },
   plugins: [require("daisyui")],
 }
