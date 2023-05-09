@@ -1,3 +1,5 @@
+import bgImg from '../../assets/scarecrow.png'
+
 const ErrorPage = () => {
     return (
         <div className="container mx-auto p-4 ">
@@ -8,7 +10,7 @@ const ErrorPage = () => {
             <div className="flex flex-col md:flex-row lg:gap-64 pt-16 lg:py-60">
                 {/* left side start  */}
                 <div> 
-                    <img src="/src/assets/scarecrow.png" alt="scarecorow" className="h-96" />
+                    <img src={bgImg} alt="scarecorow" className="h-96" />
                 </div>
                 {/* left side end */}
 
